@@ -1,0 +1,48 @@
+
+/* Climate */
+.highTemp {
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 200;
+  
+  background: linear-gradient(to right, #FC8181 20%,#E53E3E 40%, #C53030 60%, #E53E3E 80%, #FC8181 100%);
+  background-size: 200% auto;
+   
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 3s linear infinite;
+}
+
+
+@keyframes shine {
+    to {
+      background-position: 200% center;
+    }
+}
+
+.lowTemp {
+  text-align: center;
+  font-size: 7rem;
+  font-weight: 200;
+
+  background: linear-gradient(to right, #63B3ED 20%,#3182CE 40%, #2B6CB0 60%, #3182CE 80%, #63B3ED 100%);
+  background-size: 200% auto;
+   
+  color: #000;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  animation: shine 3s linear infinite;
+}
+
+
+@media screen and (max-width: 768px) {
+  .lowTemp, .highTemp {
+    font-size: 5rem;
+  }
+}
+
