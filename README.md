@@ -1,3 +1,9 @@
+This project was made to explore a relatively new component library called Chakara-ui. I really enjoyed using Chakara-ui as it provided light/dark mode built in, all of it's components really work well together. Definitely will be using in future projects.
+
+
+- - - -
+
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
